@@ -43,8 +43,8 @@ $ npm run test
 ```
 
 ## Presentation
-API - taking a bar code plain/text content as an input && returning an object with product data if bar code is valid.
-The /products/search route is protected. You first have to authenticate with the /users/signup and then /users/signin route.
+API - taking a bar code plain/text content as an input (and optional fields such as "fields": [code, product_name]) && returning an object with product data if bar code is valid.
+The /products/search route is protected. You first have to create an account with the /users/signup and then /users/signin route.
 
 Full documentation of API can be found here: 
 http://localhost:3000/api/doc/.
